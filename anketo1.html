@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>NYC - Design Studio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+</head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+        
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">DSGN NYC</a></h1>
+            <i class="fa fa-times menu-close"></i>
+            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#about" class="smoothScroll">About</a>
+            <a href="#portfolio" class="smoothScroll">Portfolio</a>
+            <a href="#services" class="smoothScroll">Services</a>
+            <a href="#contact" class="smoothScroll">Contact</a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+
+
+        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <section id="home" name="home"></section>
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>アンケート記入フォーム</h1>
+                </div>
+            </div><! --/row -->
+        </div><! --/container -->
+    </div><! --/headerwrap -->
+
+    
+    <div class="container">
+
+    
+    <form method="post" action="http://localhost/anketo/index.php">
+        ニックネームを入力してください<br/>
+        
+    <input name="nickname" type="text" style="width:100px"><br>
+
+        メールアドレスを入力してください。<br/>
+        <input name="email" type="text" style="width:200px"><br/>
+
+        ご意見を一言で聞かせてください<br/>
+        <input name="goiken" type="text" style="width:300px"><br/>
+
+        <input type="submit" value="送信">
+
+    
+
+</div><!-- /aboutwrap -->
+  </body>

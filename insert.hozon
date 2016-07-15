@@ -1,0 +1,1 @@
+INSERT INTO `phpkiso`.`anketo` (`code`, `nickname`, `email`, `goiken`) VALUES (NULL, 'aaa', 'aaa', 'aaa');
